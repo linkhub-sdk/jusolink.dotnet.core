@@ -56,7 +56,7 @@ namespace Jusolink
 
             if (index == null)
             {
-                throw new JusolinkException(99999999, "검색어가 입력되지 않았습니다");
+                throw new JusolinkException(-99999999, "검색어가 입력되지 않았습니다");
             }
             url = "/Search?Searches=" + index;
 
